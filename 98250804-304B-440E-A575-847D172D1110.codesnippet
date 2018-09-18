@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>quick frame</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>CGFloat &lt;#name#&gt;X = 0;
+CGFloat &lt;#name#&gt;Y = 0;
+CGFloat &lt;#name#&gt;W = 0;
+CGFloat &lt;#name#&gt;H = 0;
+&lt;#name#&gt;.frame = CGRectMake(&lt;#name#&gt;X, &lt;#name#&gt;Y, &lt;#name#&gt;W, &lt;#name#&gt;H);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>98250804-304B-440E-A575-847D172D1110</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>快速设置某一个控件frame</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>设置frame</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
