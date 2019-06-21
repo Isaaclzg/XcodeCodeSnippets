@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ps@</string>
+	<string>CR_YYLabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>    NSMutableAttributedString *&lt;#---#&gt;Text = [[NSMutableAttributedString alloc] initWithString&lt;#---#&gt;];
+    &lt;#---#&gt;Text.yy_color = [UIColor colorWithHexString:@"#00897B"];
+    [&lt;#---#&gt;Text yy_setFont:[UIFont systemFontOfSize:24] range:NSMakeRange(0, 2)];
+    [&lt;#---#&gt;Text yy_setAlignment:NSTextAlignmentCenter range:NSMakeRange(0, 3)];
+    &lt;#---#&gt;.attributedText = &lt;#---#&gt;Text;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3F790F1B-F25F-4322-8AE0-5EE9192A8688</string>
+	<string>B92E21A7-9D2C-4117-B9D2-5FBA37C95FC1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>添加属性变量strong</string>
+	<string>富文本</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property strong</string>
+	<string>YYLabel富文本</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

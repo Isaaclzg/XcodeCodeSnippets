@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ps@</string>
+	<string>btn_ban_high</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>&lt;#button#&gt;.adjustsImageWhenDisabled = NO;
+        &lt;#button#&gt;.adjustsImageWhenHighlighted = NO;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3F790F1B-F25F-4322-8AE0-5EE9192A8688</string>
+	<string>B3654AC4-DD11-4A4C-95A7-4E512C7BB7F4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>添加属性变量strong</string>
+	<string>禁止按钮的高亮点击</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property strong</string>
+	<string>禁止按钮的高亮点击</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

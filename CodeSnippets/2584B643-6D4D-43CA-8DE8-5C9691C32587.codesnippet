@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ps@</string>
+	<string>YB_Model</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>[YBMFConfig shareConfig].fileSuffix = @"";
+        [YBMFConfig shareConfig].needCoding = NO;
+        [YBMFConfig shareConfig].needCopying = NO;
+        [YBMFConfig shareConfig].fileHHandler.ybmf_skipLine = YES;
+        [YBMFConfig shareConfig].framework = YBMFFrameworkMJ;
+        [YBModelFile createFileWithName:@"" data:result];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3F790F1B-F25F-4322-8AE0-5EE9192A8688</string>
+	<string>2584B643-6D4D-43CA-8DE8-5C9691C32587</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>添加属性变量strong</string>
+	<string>YB_自动创建模型</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property strong</string>
+	<string>YB_自动创建模型</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
